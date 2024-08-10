@@ -1,0 +1,92 @@
+{
+  "roomTypes": [
+    {
+      "id": "1",
+      "name": "Simple",
+      "description": "Habitación básica para un huésped",
+      "capacity": 1
+    },
+    {
+      "id": "2",
+      "name": "Doble Deluxe",
+      "description": "Habitación cómoda para dos personas",
+      "capacity": 2
+    },
+    {
+      "id": "3",
+      "name": "Junior Suite",
+      "description": "Habitación con sala de estar pequeña",
+      "capacity": 3
+    },
+    {
+      "id": "4",
+      "name": "Suite Familiar",
+      "description": "Habitación grande para 5 personas",
+      "capacity": 5
+    },
+    {
+      "id": "5",
+      "name": "Suite Real",
+      "description": "Habitación de lujo con sala, comedor y jacuzzi",
+      "capacity": 7
+    }
+  ],
+  "rooms": [
+    {
+      "number": 201,
+      "roomTypeId": 1,
+      "priceNight": 55,
+      "availability": true,
+      "id": "ab12"
+    },
+    {
+      "number": 202,
+      "roomTypeId": 2,
+      "priceNight": 85,
+      "availability": true,
+      "id": "cd34"
+    },
+    {
+      "number": 203,
+      "roomTypeId": 2,
+      "priceNight": 90,
+      "availability": true,
+      "id": "ef56"
+    },
+    {
+      "number": 204,
+      "roomTypeId": 3,
+      "priceNight": 160,
+      "availability": false,
+      "id": "gh78"
+    },
+    {
+      "number": 205,
+      "roomTypeId": 3,
+      "priceNight": 210,
+      "availability": false,
+      "id": "ij90"
+    },
+    {
+      "number": 206,
+      "roomTypeId": 3,
+      "priceNight": 220,
+      "availability": true,
+      "id": "kl12"
+    },
+    {
+      "number": 207,
+      "roomTypeId": 4,
+      "priceNight": 250,
+      "availability": true,
+      "id": "mn34"
+    },
+    {
+      "number": 208,
+      "roomTypeId": 5,
+      "priceNight": 350,
+      "availability": false,
+      "id": "op56"
+    }
+  ]
+}
